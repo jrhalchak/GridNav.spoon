@@ -2,11 +2,13 @@
 
 ```
 
-░░      ░░░       ░░░        ░░       ░░░   ░░░  ░░░      ░░░  ░░░░  ░
-▒  ▒▒▒▒▒▒▒▒  ▒▒▒▒  ▒▒▒▒▒  ▒▒▒▒▒  ▒▒▒▒  ▒▒    ▒▒  ▒▒  ▒▒▒▒  ▒▒  ▒▒▒▒  ▒
-▓  ▓▓▓   ▓▓       ▓▓▓▓▓▓  ▓▓▓▓▓  ▓▓▓▓  ▓▓  ▓  ▓  ▓▓  ▓▓▓▓  ▓▓▓  ▓▓  ▓▓
-█  ████  ██  ███  ██████  █████  ████  ██  ██    ██        ████    ███
-██      ███  ████  ██        ██       ███  ███   ██  ████  █████  ████
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+░░░░      ░░░       ░░░        ░░       ░░░   ░░░  ░░░      ░░░  ░░░░  ░░░
+▒▒▒  ▒▒▒▒▒▒▒▒  ▒▒▒▒  ▒▒▒▒▒  ▒▒▒▒▒  ▒▒▒▒  ▒▒    ▒▒  ▒▒  ▒▒▒▒  ▒▒  ▒▒▒▒  ▒▒▒
+▓▓▓  ▓▓▓   ▓▓       ▓▓▓▓▓▓  ▓▓▓▓▓  ▓▓▓▓  ▓▓  ▓  ▓  ▓▓  ▓▓▓▓  ▓▓▓  ▓▓  ▓▓▓▓
+███  ████  ██  ███  ██████  █████  ████  ██  ██    ██        ████    █████
+████      ███  ████  ██        ██       ███  ███   ██  ████  █████  ██████
+██████████████████████████████████████████████████████████████████████████
 
 ```
 
@@ -95,7 +97,7 @@ A keyboard-driven mouse grid navigation system for Hammerspoon, inspired by [key
 
 ## Installation
 1. Download or clone this repository
-2. Move GridNav.spoon to ~/.hammerspoon/Spoons/
+2. Move `GridNav.spoon/` to `~/.hammerspoon/Spoons/`
 3. Add to your init.lua: `hs.loadSpoon("GridNav")`
 
 Assuming you have the default `~/.hammerspoon/Spoons` directory, you can just run the following, add your initialization/configuration to the `~/.hammerspoon/init.lua` and restart Hammerspoon.
@@ -152,7 +154,7 @@ gridNav:configure({
 
      -- Movement / Cutting
      moveDistance = 1,
-    cutAmount = 0.5,
+     cutAmount = 0.5,
 
      -- UI behavior
      showModalAlert = false,
