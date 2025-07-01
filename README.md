@@ -43,8 +43,9 @@ A keyboard-driven mouse grid navigation system for Hammerspoon, inspired by [key
 
 - Warp cursor to grid center without clicking (w)
 - Left-click at grid center (space or return)
-- Double-click at grid center (ctrl+space or d)
-- Right-click at grid center (shift+space or shift+return)
+- Double-click at grid center (ctrl+space)
+- Triple-click at grid center (ctrl+shift+space)
+- Right-click at grid center (shift+space)
 - Right-click while keeping grid active for menu selection
 
 </details>
@@ -240,8 +241,6 @@ gridNav:start()
 
 
 ## Todos
-- [ ] Double-click
-- [ ] U/D extra-scroll
 - [ ] Test multi-monitor support
 
 ### Nice to Haves
